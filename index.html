@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Верстка блока. Построение сеток + БЭМ именование</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">  
+        <div class="header__menu">
+            <button class="header__button button">
+                <img class="header__button--menu" src="/img/icon.svg" alt="Меню">
+            </button>
+            <div class="header__divider header__divider--hidden">
+                <img src="/img/divider.svg" alt="Разделитель">
+            </div>
+            <div class="header__logo logo">
+                <a class="logo__link" href="/">
+                <img class="logo-gps" src="/img/Logo.png" alt="Логотип GPS">
+                </a>
+            </div>
+            <div class="header__divider header__divider--hidden768">
+                <img src="/img/divider.svg" alt="Разделитель">
+            </div>
+            <button class="header__button header__button--hidden button">
+                <img class="header__button--call" src="/img/icon-2.svg" alt="Звонок">
+            </button>
+            <button class="header__button header__button--hidden button">
+                <img class="header__button--chat" src="/img/icon-3.svg" alt="Чат">
+            </button>
+            <button class="header__button header__button--hidden button">
+                <img class="header__button--profile" src="/img/icon-4.svg" alt="Профиль">
+            </button>
+            <div class="header__divider header__divider--hidden">
+                <img src="/img/divider.svg" alt="Разделитель">
+            </div>
+            <button class="header__button button">
+                <img class="header__button--repair" src="/img/icon-5.svg" alt="Оставить заявку">
+            </button>
+            <button class="header__button button">
+                <img class="header__button--status" src="/img/icon-6.svg" alt="Статус ремонта">
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__row row">
+            <h1 class="row__title">Услуги и сервисы</h1>
+            <div class="row__button"><span class="row__button--info">Оставить заявку</span>
+                <button class="header__button">
+                    <img class="header__button--repair" src="/img/icon-5.svg" alt="Оставить заявку">
+                </button>
+            </div>
+            <div class="row__button"><span class="row__button--info">Статус ремонта</span>
+                <button class="header__button">
+                    <img class="header__button--status" src="/img/icon-6.svg" alt="Статус ремонта">
+            </button>
+            </div>
+        </div>
+        <div class="main__menu menu">
+                <button class="menu__item menu__item--selected">Ремонтируемые устройства</a></button>
+                <button class="menu__item">Дополнительные услуги</button>
+                <button class="menu__item">Цены на услуги</button>
+                <button class="menu__item">Специальные цены</button>
+                <button class="menu__item">Адреса сервисных центров</button>
+                <button class="menu__item">Отзывы</button>
+        </div>
+        <div class="about__content about">
+            <div class="about__info">
+                <p class="about__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                <p class="about__text about__text--hidden768">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
+                <p class="about__text about__text--hidden1120">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                <button class="about__button"><img src="/img/Next.svg" alt="Далее"><span>Читать далее</span></button>
+            </div>
+            <div class="about__image">
+                <img class="image image--size--s image--size--m" src="/img/GPS picture.png" alt="Логотип в офисе">
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
