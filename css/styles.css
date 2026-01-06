@@ -204,11 +204,14 @@ body {
     padding: 0;
     width: 132px;
     height: 24px;
-    font-family: "TT Lakes";
-    font-weight: 500px;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.2px; 
+}
+
+.about__button--next {
+  font-family: "TT Lakes";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
 }
 
 .image {
@@ -255,6 +258,14 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
+  }
+  .row__button--info {
+    font-family: "TT Lakes";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: right;
   }
   .about__text--hidden1120 {
     display: block;
